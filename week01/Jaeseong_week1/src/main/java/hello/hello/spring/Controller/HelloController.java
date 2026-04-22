@@ -1,9 +1,8 @@
-package hello.hello.spring.HelloController; // 패키지 경로는 실제 프로젝트 구조에 맞게 조정하세요.
+package hello.hello.spring.Controller; // 패키지 경로는 실제 프로젝트 구조에 맞게 조정하세요.
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model; // 1. 올바른 Import
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestAttribute;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
