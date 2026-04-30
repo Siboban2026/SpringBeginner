@@ -3,8 +3,7 @@ package me.jaeseong.springboot_developer.springbootdeveloper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.lang.reflect.Member;
+import me.jaeseong.springboot_developer.springbootdeveloper.Member;
 import java.util.*;
 
 
